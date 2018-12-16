@@ -1,6 +1,11 @@
 #!/usr/bin/env python
 
 from __future__ import absolute_import
+from simple_salesforce import Salesforce
+
+from .models import Greeting
+
+sf = Salesforce(username='ramadhar.mishra@gmail.com', password='Ram@123455', security_token='zYrbF3Xi0VdlptK01MrZKaDX')
 
 import io
 import os
